@@ -4,7 +4,7 @@ def prime?(number)
   result = true
   if number < 2
     result = false
-  else 
+  else
     range_array.each do |r|
       if number % r == 0
         result = false
